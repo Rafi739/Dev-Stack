@@ -18,8 +18,7 @@ const Product = () => {
     const [stack, setStack] = useState<Technology[]>([]);
 
     useEffect(() => {
-        fetch("/product.json")
-            .then((res) => res.json())
+fetch(`${import.meta.env.BASE_URL}product.json`)            .then((res) => res.json())
             .then((data) => setTechnologies(data))
             .catch((error) => {
                 console.error("Failed to load technologies:", error);
