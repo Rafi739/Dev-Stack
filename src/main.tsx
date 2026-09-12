@@ -1,15 +1,16 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import Nev from './components/Nev'
+import Header from './components/Header'
 import Hero from './components/Hero'
 import Product from './components/Product'
+// import Footer from './components/Footer'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <Nev />
+    <Header />
     <Hero />
     <Product />
-    
+    {/* <Footer /> */}
   </StrictMode>,
 )
