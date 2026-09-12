@@ -2,13 +2,13 @@ import Banner from "../assets/banner-stack.png";
 
 const Hero = () => {
     return (
-        <section className="w-[85%] max-w-300 mx-auto mt-14">
-            <div className="flex items-center justify-between gap-10">
+        <section className="w-[90%] max-w-7xl mx-auto pt-12">
+            <div className="flex min-h-115 items-center justify-between gap-16">
 
-  
+               
                 <aside className="w-1/2">
 
-                    <h1 className="text-[34px] font-bold leading-[1.05] text-[#111827]">
+                    <h1 className="text-[50px] font-bold leading-[1.08] text-[#111827]">
                         Build Your Ideal
                         <br />
 
@@ -17,30 +17,38 @@ const Hero = () => {
                         </span>
                     </h1>
 
-                    <p className="text-[13px] text-gray-500 leading-5 mt-4 max-w-112.5">
+                    <p className="mt-6 max-w-xl text-[16px] leading-7 text-gray-500">
                         Explore frontend, backend, database, and tooling options,
-                        compare them side by side, and put together the stack that fits your
-                        next project.
+                        compare them side by side, and put together the stack that
+                        fits your next project.
                     </p>
 
-           
-                    <div className="flex gap-2 mt-7">
+                   
+                    <div className="mt-8 flex gap-4">
 
-                        <button type="button" className="px-3 py-2 text-[10px] text-white rounded-mdbg-linear-to-r from-[#ff6b35] to-[#e83e8c] hover:scale-105 transition duration-300">
+                        <button
+                            type="button"
+                            className="cursor-pointer rounded-md bg-linear-to-r from-[#ff6b35] to-[#e83e8c] px-7 py-3.5 text-[13px] font-medium text-white shadow-sm transition duration-300 hover:scale-105"
+                        >
                             Explore Technologies
                         </button>
 
-                        <button type="button" className="px-7 py-2 text-[10px] text-gray-600 border border-gray-200 rounded-md hover:bg-gray-100 transition duration-300" >
+                        <button
+                            type="button"
+                            className="cursor-pointer rounded-md border border-gray-200 px-8 py-3.5 text-[13px] text-gray-600 transition duration-300 hover:bg-gray-100"
+                        >
                             Learn More
                         </button>
 
                     </div>
                 </aside>
 
-
-           
-                <aside className="w-1/2 flex justify-center">
-                    <img src={Banner} alt="Development Stack" className="w-70 h-auto object-contain" />
+                <aside className="flex w-1/2 justify-center">
+                    <img
+                        src={Banner}
+                        alt="Development Stack"
+                        className="w-107.5 h-auto object-contain"
+                    />
                 </aside>
 
             </div>
