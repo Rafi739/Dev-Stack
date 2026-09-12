@@ -26,17 +26,11 @@ const Hero = () => {
                    
                     <div className="mt-8 flex gap-4">
 
-                        <button
-                            type="button"
-                            className="cursor-pointer rounded-md bg-linear-to-r from-[#ff6b35] to-[#e83e8c] px-7 py-3.5 text-[13px] font-medium text-white shadow-sm transition duration-300 hover:scale-105"
-                        >
+                        <button type="button" className="cursor-pointer rounded-md bg-linear-to-r from-[#ff6b35] to-[#e83e8c] px-7 py-3.5 text-[13px] font-medium text-white shadow-sm transition duration-300 hover:scale-105" >
                             Explore Technologies
                         </button>
 
-                        <button
-                            type="button"
-                            className="cursor-pointer rounded-md border border-gray-200 px-8 py-3.5 text-[13px] text-gray-600 transition duration-300 hover:bg-gray-100"
-                        >
+                        <button type="button" className="cursor-pointer rounded-md border border-gray-200 px-8 py-3.5 text-[13px] text-gray-600 transition duration-300 hover:bg-gray-100" >
                             Learn More
                         </button>
 
@@ -44,11 +38,7 @@ const Hero = () => {
                 </aside>
 
                 <aside className="flex w-1/2 justify-center">
-                    <img
-                        src={Banner}
-                        alt="Development Stack"
-                        className="w-107.5 h-auto object-contain"
-                    />
+                    <img src={Banner} alt="Development Stack" className="w-107.5 h-auto object-contain" />
                 </aside>
 
             </div>

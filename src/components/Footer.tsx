@@ -80,7 +80,6 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Legal */}
           <div>
             <h3 className="mb-4 text-xs font-bold tracking-wide text-gray-800">
               LEGAL

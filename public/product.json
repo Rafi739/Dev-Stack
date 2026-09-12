@@ -1,0 +1,133 @@
+[
+  {
+    "name": "React",
+    "icon": "⚛",
+    "iconColor": "text-cyan-400",
+    "badge": "Popular",
+    "badgeColor": "bg-blue-50 text-blue-400",
+    "category": "Frontend",
+    "level": "Beginner-Friendly",
+    "rating": "4.9",
+    "description": "A declarative, component-based JavaScript library for building modern user interfaces."
+  },
+  {
+    "name": "Vue.js",
+    "icon": "▼",
+    "iconColor": "text-green-500",
+    "badge": "Versatile",
+    "badgeColor": "bg-green-50 text-green-500",
+    "category": "Frontend",
+    "level": "Beginner-Friendly",
+    "rating": "4.8",
+    "description": "An approachable, performant and versatile framework for building web user interfaces."
+  },
+  {
+    "name": "Svelte",
+    "icon": "S",
+    "iconColor": "text-orange-500",
+    "badge": "Fast",
+    "badgeColor": "bg-orange-50 text-orange-500",
+    "category": "Frontend",
+    "level": "Intermediate",
+    "rating": "4.8",
+    "description": "Compiler-enhanced web apps with compile-time reactivity and zero virtual DOM overhead."
+  },
+  {
+    "name": "Next.js",
+    "icon": "Ⓝ",
+    "iconColor": "text-black",
+    "category": "Frontend",
+    "level": "Intermediate",
+    "rating": "4.9",
+    "description": "The React framework for full-stack web applications with hybrid static & server rendering."
+  },
+  {
+    "name": "Node.js",
+    "icon": "⬡",
+    "iconColor": "text-green-500",
+    "badge": "Standard",
+    "badgeColor": "bg-green-50 text-green-500",
+    "category": "Backend",
+    "level": "Intermediate",
+    "rating": "4.8",
+    "description": "An asynchronous event-driven JavaScript runtime built on Chrome's V8 engine."
+  },
+  {
+    "name": "PostgreSQL",
+    "icon": "🐘",
+    "iconColor": "text-blue-500",
+    "badge": "Top SQL",
+    "badgeColor": "bg-blue-50 text-blue-500",
+    "category": "Database",
+    "level": "Intermediate",
+    "rating": "4.9",
+    "description": "A powerful, open-source object-relational database system with proven reliability."
+  },
+  {
+    "name": "Redis",
+    "icon": "▰",
+    "iconColor": "text-red-500",
+    "badge": "Cache",
+    "badgeColor": "bg-red-50 text-red-500",
+    "category": "Database",
+    "level": "Intermediate",
+    "rating": "4.8",
+    "description": "An in-memory data structure store used as a high-speed database, cache, and message broker."
+  },
+  {
+    "name": "JavaScript",
+    "icon": "JS",
+    "iconColor": "text-gray-900",
+    "badge": "Ubiquitous",
+    "badgeColor": "bg-orange-50 text-orange-500",
+    "category": "Language",
+    "level": "Beginner-Friendly",
+    "rating": "4.9",
+    "description": "The versatile, ubiquitous scripting language powering dynamic behavior across the web."
+  },
+  {
+    "name": "TypeScript",
+    "icon": "TS",
+    "iconColor": "text-white",
+    "iconBg": "bg-blue-600",
+    "badge": "Essential",
+    "badgeColor": "bg-blue-50 text-blue-500",
+    "category": "Language",
+    "level": "Intermediate",
+    "rating": "4.9",
+    "description": "A strongly typed programming language that builds on JavaScript for robust tooling."
+  },
+  {
+    "name": "Java",
+    "icon": "☕",
+    "iconColor": "text-orange-500",
+    "badge": "Robust",
+    "badgeColor": "bg-blue-50 text-blue-500",
+    "category": "Language",
+    "level": "Intermediate",
+    "rating": "4.6",
+    "description": "A secure, object-oriented programming language designed for portability and scale."
+  },
+  {
+    "name": "Tailwind CSS",
+    "icon": "〰",
+    "iconColor": "text-cyan-400",
+    "badge": "Modern",
+    "badgeColor": "bg-cyan-50 text-cyan-500",
+    "category": "Styling",
+    "level": "Beginner-Friendly",
+    "rating": "4.9",
+    "description": "A utility-first CSS framework packed with classes that can be composed to build custom UI."
+  },
+  {
+    "name": "Docker",
+    "icon": "◆",
+    "iconColor": "text-cyan-500",
+    "badge": "Containers",
+    "badgeColor": "bg-blue-50 text-blue-500",
+    "category": "DevOps",
+    "level": "Intermediate",
+    "rating": "4.9",
+    "description": "A platform designed to build, share, and run containerized applications reliably."
+  }
+]
