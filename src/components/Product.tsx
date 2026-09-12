@@ -51,7 +51,7 @@ const Product = () => {
 
     return (
         <section className="min-h-screen bg-white py-12">
-            <div className="mx-auto w-[90%] max-w-7xl">
+            <div className="mx-auto w-[85%] max-w-7xl">
 
                 <div>
                     <h2 className="text-[32px] font-bold leading-tight text-[#111827]">
@@ -140,7 +140,7 @@ const Product = () => {
                         <h3 className="text-[16px] font-bold text-[#111827]">Your Stack</h3>
 
                         <p className="mt-1.5 text-[10px] text-gray-400">
-                            {stack.length} technologies selected.
+                            {stack.length} technologies selected yet.
                         </p>
 
                         <div className="mt-4 space-y-2">

@@ -2,7 +2,7 @@ import Banner from "../assets/banner-stack.png";
 
 const Hero = () => {
     return (
-        <section className="w-[90%] max-w-7xl mx-auto pt-12">
+        <section className="w-[85%] max-w-7xl mx-auto pt-12">
             <div className="flex min-h-115 items-center justify-between gap-16">
 
                

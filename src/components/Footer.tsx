@@ -103,7 +103,7 @@ const Footer = () => {
 
     
         <div className="mt-12 flex flex-col justify-between gap-4 border-t border-gray-100 pt-7 text-xs text-slate-400 sm:flex-row">
-          <p>© 2026 Dev Stack. All rights reserved.</p>
+          <p>© 2026 Dev Stack. All rights reserved. Created by Rafi</p>
 
           <div className="flex gap-6">
             <a href="#" className="hover:text-gray-700">
